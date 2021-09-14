@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cosmosis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>About Our City<br> Cosmosis!</h1>
+                <span class="square"></span>
+                <p> Our city is Cosmosis we are a military powerhouse and main stop on trade routes
+                    everyone in our city is equal the women are maybe cooler though. 
+                    Our "leaders"(more like representatives) are the head general and master merchant the work together and with the people to govern our great city and island. The best way we would take care of a problem would be by letting the people bring their view to light and go from there
+                    join our army to just be of age we don't want kids in harms way!
+                    our society is a bustling city where the people work together and find ways to solve problems and push through life!</p>
+               
+                
+            </div>
+        
+    </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+             <li><a href="#header">HOME</a></li>
+             <li><a href="#mid">GRECO-PERSIAN WAR</a></li>
+             <li><a href="#bottom">POST GRECO-PERSIAN WAR</a></li>
+             
+             
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+
+    <!--about  -->
+
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>Our Gods!</h1>
+                <p>We worship the goddess Athena to bring victory to our battles 
+                and hardships and then Demeter the goddess of the harvest to bring us bountiful harvest for our city and trade!</p>
+                <br>
+                <br>
+                <h2>"And now am I come, for of a truth men said that he, your father, was among his people; but look, the Gods are frustrating him of his return."</h2>
+                <h3>-Athena The Godess Of Wisdom</h3>
+            </div>
+        </div>
+    <!--mid  -->
+
+
+    <section id="mid">
+        <div class="mid-left-col">
+            <img src="images/war.png">
+        </div>
+        <div class="mid-right-col">
+            <div class="mid-text">
+                <h1>Greco Persian War!</h1>
+                <p>During this war the two sides were the Persians who wanted to rule Greece after Athens helped one of their cites and the Delian League led by Athens who just wanted to survive.
+                    This war started when Ilos was helped by Athens to get away from the Persian Empire but then caused them to come after all of Greece so the Polis banded together to fend them away.
+                    </p>
+                <br>
+                <br>
+                <h2>The Persians tried to sway us with kingship but we knew siding with the Delian League was the right way to survive and stick with the Greek people. We expect freedom in the end and to keep good relations with other citys.</h2>
+             
+            </div>
+        </div>
+        <section id="bottom">
+            <div class="bottom-left-col">
+                <img src="images/map2.png"style="float:left;width:511px;height: 455px;px;">
+                <img src="images/league_map.png"style="float:left;width:511px;height: 455px;px;">
+            </div>
+            <div class="bottom-right-col">
+                <div class="bottom-text">
+                    <h1> Post Greco Persian War!</h1>
+                    <p>The outcome of Greco Persian War was that the Persians were pushed back but the Athens became self consumed and forced other Polis to pay them money to make their city look beautiful and not being able tosupport our own. But, an new league rises led by the mighty Spartans who were fed up with the crap Athens was giving out to the other people of Greece and deciding that them and the others wanted independence.
+                        </p>
+                    <br>
+                    <br>
+                    <h2>We decided we are done with Athens and wanted our independence back so we sided with the might Spartans joining forces with there army hoping lady Athena and great Ares will woe us in their favor to win this great war because we wan our home back and to bring us to the lush greatness we once were</h2>
+                 
+                </div>
+            </div>
+    
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav")
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        
+	var scroll = new SmoothScroll('a[href*="#"]',{
+    speed: 1000,
+    speedAsDuration: true
+    });
+
+</script>
+</script>
+
+</body>
+</html>
